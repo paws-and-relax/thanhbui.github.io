@@ -1,0 +1,30 @@
+.content {
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: transparent;
+    padding-top: 25px;
+    padding-left: 65px;
+    padding-right: 65px;
+}
+
+.grid-container > div {
+    text-align: center;
+}
+
+img {
+    width: 400px;
+    height: 400px;
+}
+
+div p {
+    font-size: 18px;
+}
