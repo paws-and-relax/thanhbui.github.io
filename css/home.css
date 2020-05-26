@@ -1,0 +1,18 @@
+.center {
+    position: relative;
+    text-align: center;
+    color: #fff;
+}
+.center img {
+    z-index: 0;
+    width: 90%; 
+    height: 445px;
+    padding-top: 25px;
+
+}
+.textPosOnImg {
+    position: absolute;
+    top: 83.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
